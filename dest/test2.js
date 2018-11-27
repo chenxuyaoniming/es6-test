@@ -81,20 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./test1.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./test2.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./test1.js":
+/***/ "./test2.js":
 /*!******************!*\
-  !*** ./test1.js ***!
+  !*** ./test2.js ***!
   \******************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar a = 1;\n\nconsole.log(111);\n\n//# sourceURL=webpack:///./test1.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n\nfunction a (){\n    console.log('test2')\n}\n\nconsole.log('222')\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    a:a\n});\n\n//# sourceURL=webpack:///./test2.js?");
 
 /***/ })
 
